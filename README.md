@@ -1,4 +1,4 @@
-Steps to run latex in Ubuntu 18 and above
+Steps to run LaTeX in Ubuntu 18 and above
 ------------------------------------------------------
 
 1) sudo apt-get install texlive-latex-base
