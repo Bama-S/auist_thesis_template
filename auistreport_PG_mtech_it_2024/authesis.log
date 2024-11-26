@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.26)  26 NOV 2024 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.26)  26 NOV 2024 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -760,7 +760,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 )
 (./authesis.aux (./Abstract/abstract.aux) (./acknowl.aux)
 (./Acronyms/acronyms.aux) (./1/Chapter1.aux) (./2/Chapter2.aux)
-(./3/Chapter3.aux) (./4/Chapter4.aux) (./5/Chapter5.aux)
+(./3/Chapter3.aux) (./4/Chapter4.aux) (./5/Chapter5.aux) (./6/Chapter6.aux)
 (./Conclusion/conclusion.aux) (./Appendix/appendix.aux))
 \openout1 = `authesis.aux'.
 
@@ -819,7 +819,7 @@ Package hyperref Info: Link coloring OFF on input line 158.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<auemblem.pdf, id=216, 120.45pt x 118.4425pt>
+<auemblem.pdf, id=208, 120.45pt x 118.4425pt>
 File: auemblem.pdf Graphic file (type pdf)
 <use auemblem.pdf>
 Package pdftex.def Info: auemblem.pdf  used on input line 194.
@@ -991,13 +991,13 @@ Overfull \hbox (15.54715pt too wide) in paragraph at lines 54--55
 red us-ing Ara-bic nu-mer-als. 
  []
 
-[5]
-Overfull \hbox (5.94614pt too wide) in paragraph at lines 62--63
+[5])
+Overfull \hbox (5.94614pt too wide) in paragraph at lines 62--317
 []\OT1/ptm/m/n/13 Equations ap-pear-ing in each Chap-ter or Ap-pendix should be
  num-bered
  []
 
-) [6]
+[6]
 \openout2 = `2/Chapter2.aux'.
 
  (./2/Chapter2.tex
@@ -1017,9 +1017,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 9.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
+Overfull \hbox (4.20238pt too wide) in paragraph at lines 15--16
+[]\OT1/ptm/m/n/13 A the-ory [[]] on struc-tures dis-cusses the ad-van-tages and
+ dis-ad-van-tages. 
  []
+
+
+Overfull \hbox (3.48825pt too wide) in paragraph at lines 18--19
+[]\OT1/ptm/m/n/13 The prob-lem of me-chan-i-cal ma-nip-u-la-tors has been stud-
+ied ex-ten-sively
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 20.
 
 [7
 
@@ -1030,10 +1041,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 32.
 
 ) [8]
 \openout2 = `3/Chapter3.aux'.
@@ -1058,12 +1065,12 @@ ven in Ta-ble []3.2[].
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 37.
 
-<3/eg1.png, id=394, 566.5968pt x 342.5598pt>
+<3/eg1.png, id=369, 566.5968pt x 342.5598pt>
 File: 3/eg1.png Graphic file (type png)
 <use 3/eg1.png>
 Package pdftex.def Info: 3/eg1.png  used on input line 41.
 (pdftex.def)             Requested size: 339.9607pt x 205.53745pt.
-<3/eg2.png, id=396, 65.49469pt x 48.18pt>
+<3/eg2.png, id=371, 65.49469pt x 48.18pt>
 File: 3/eg2.png Graphic file (type png)
 <use 3/eg2.png>
 Package pdftex.def Info: 3/eg2.png  used on input line 48.
@@ -1094,7 +1101,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 6.
+(hyperref)                removing `\uppercase' on input line 7.
 
 ) [11
 
@@ -1116,10 +1123,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
+\openout2 = `6/Chapter6.aux'.
+
+ (./6/Chapter6.tex
+CHAPTER 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 3.
+
+) [13
+
+
+
+
+]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (./Conclusion/conclusion.tex
-CHAPTER 6.
+CHAPTER 7.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 1.
@@ -1130,7 +1151,7 @@ Overfull \hbox (20.93533pt too wide) in paragraph at lines 3--323
  en-hance-ments. 
  []
 
-[13
+[14
 
 
 
@@ -1152,7 +1173,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 5.
 
-[14
+[15
 
 
 
@@ -1172,34 +1193,34 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 8.
 
-) [15
+) [16
 
 ] (./authesis.bbl
-Underfull \hbox (badness 2334) in paragraph at lines 32--37
+Underfull \hbox (badness 2334) in paragraph at lines 48--53
 \OT1/ptm/m/n/13 of Search En-gine Ser-vices for Ef-fec-tive Re-trieval and Know
 l-edge
  []
 
-) [16
+) [17
 
 
 
 ] (./authesis.aux (./Abstract/abstract.aux) (./acknowl.aux)
 (./Acronyms/acronyms.aux) (./1/Chapter1.aux) (./2/Chapter2.aux)
-(./3/Chapter3.aux) (./4/Chapter4.aux) (./5/Chapter5.aux)
+(./3/Chapter3.aux) (./4/Chapter4.aux) (./5/Chapter5.aux) (./6/Chapter6.aux)
 (./Conclusion/conclusion.aux) (./Appendix/appendix.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `authesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3AD2D35ED1166EC0847BCBC1100861C1;8089.
+(rerunfilecheck)             Checksum: 01428061DC2643AB7340154BDFB6284B;7611.
  ) 
 Here is how much of TeX's memory you used:
- 14709 strings out of 478051
- 239218 string characters out of 5840942
+ 14736 strings out of 478051
+ 239939 string characters out of 5840942
  1863330 words of memory out of 5000000
- 34378 multiletter control sequences out of 15000+600000
+ 34398 multiletter control sequences out of 15000+600000
  553685 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,76p,845b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1212,10 +1233,10 @@ bol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on authesis.pdf (25 pages, 160421 bytes).
+Output written on authesis.pdf (26 pages, 159565 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

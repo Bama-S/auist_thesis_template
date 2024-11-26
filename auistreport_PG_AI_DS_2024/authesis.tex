@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Anna University sample latex thesis format for UG thesis
 %--------------------------------
-%%This is the main file that includes the front matter and other chapter links. 
-%%Chapters are placed within the folder named 1, 2,...  
-%%To compile, run the command `pdflatex authesis.tex' in the terminal. 
-%%Some packages may not be needed. Comment the ones, that are not needed. 
-%%Images can be saved in the format of *.png. 
+%%This is the main file that includes the front matter and other chapter links.
+%%Chapters are placed within the folder named 1, 2,...
+%%To compile, run the command `pdflatex authesis.tex' in the terminal.
+%%Some packages may not be needed. Comment the ones, that are not needed.
+%%Images can be saved in the format of *.png.
 %%------------------------------------------------------
 %% Authors:
 %%Originally used by Dr. Mary Anita Rajam and then modified by Dr. Bama Srinivasan according to the latest Anna University regulations. %%Please report changes to bama@annauniv.edu, chorse@gmail.com %%
@@ -15,7 +15,7 @@
 %%new file apalikem is added, which gives a neat reference list with 1, 2...
 %%aureportm has appendix starting with Arabic numbers
 %% Disclaimer: Check with the latest Anna University regulations before working with this format.
-%% Changes as on July 2016 
+%% Changes as on July 2016
 %% 1. Changed the appendix back to alpha mode in aureport.cls
 %% 2. Table of contents - reduced the top margin and spacing
 %% 3. Added the counter depth for sections to 4 in aureport.cls
@@ -25,13 +25,14 @@
 %$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 \documentclass[13 pt,a4paper]{aureportm}
-\usepackage{mathptm}\usepackage{etex}
+\usepackage{mathptm}
+\usepackage{etex}
 \reserveinserts{28}
 \renewcommand{\normalsize}{\fontsize{13 pt}{14.6 pt}\selectfont}
 %\usepackage{aunatbib}
 %\usepackage{apalikem}
 \usepackage{natbib}
-\usepackage{bussproofs} % for deduction rules 
+\usepackage{bussproofs} % for deduction rules
 \usepackage{auphd}
 \usepackage{array}
 \usepackage{tabularx}
@@ -49,7 +50,6 @@
 \usepackage{verbatim}
 \usepackage{ifthen}
 \usepackage{graphicx}
-\usepackage{hyperref}
 \usepackage{epsfig}
 \usepackage{pslatex}
 \usepackage{setspace}
@@ -59,6 +59,7 @@
 \usepackage{longtable}
 \usepackage{enumerate}
 \usepackage{lscape}
+\usepackage{hyperref}
 
 \usepackage[format=hang,labelfont=bf,textfont=bf]{caption}
 \PassOptionsToPackage{linktocpage}{hyperref}
@@ -164,30 +165,30 @@
 \begin{center}
   \LARGE
   \textbf{\uppercase{Title of Project Report}} \\
-  \vspace{0.6\baselineskip}
+  \vspace{0.3\baselineskip}
   \bigsize{\textbf{A PROJECT REPORT}}\\
- \vspace{0.4\baselineskip}
+ \vspace{0.2\baselineskip}
 
   \normalsize{\textit{\textbf{Submitted by}}}\\
   \vspace{0.5\baselineskip}
   {
-  \Large \textbf{CANDIDATE1 Roll number}}\\
-  %\normalsize{\textbf{(Roll number)}}\\
-  \Large{\textbf{CANDIDATE 2 Roll number}}\\
-  \Large{\textbf{CANDIDATE 3 Roll number}} \\
-   \vspace{0.6\baselineskip}
-  %\normalsize{\textit{A report for the phase-I of the project}}\\
+  \Large \textbf{name}}\\
+  \normalsize{\textbf{(Roll Number)}}\\
+  %\Large{\textbf{CANDIDATE 2}}\\
+  %\Large{\textbf{CANDIDATE 3}}
+   %\vspace{0.6\baselineskip}
+  \normalsize{\textit{A report for the phase-I of the project}}\\
   \vspace{-0.1\baselineskip}
   \normalsize{\textit{submitted to the Faculty of}} \\
-  \vspace{0.5\baselineskip}
-  \normalsize{\textbf{INFORMATION AND COMMUNICATION ENGINEERING}} \\  
   \vspace{1\baselineskip}
-  \normalsize{\textit{in partial fulfillment  for the award of the degree}}\\
+  \normalsize{\textbf{INFORMATION AND COMMUNICATION ENGINEERING}} \\
+  \vspace{1\baselineskip}
+  \normalsize{\textit{in partial fulfillment \\ for the award of the degree}}\\
   \normalsize{\textit{\textbf{of}}}\\
-\vspace{.2\baselineskip}
-  \bigsize{{\textbf{BACHELOR OF TECHNOLOGY}}}\\
+%\vspace{.1\baselineskip}
+  \bigsize{{\textbf{MASTER OF TECHNOLOGY}}}\\
   \normalsize{\textit{\textbf{in}}}\\
-  \bigsize{{\textbf{INFORMATION TECHNOLOGY}}}\\
+  \bigsize{{\textbf{INFORMATION TECHNOLOGY \\ SPECIALIZATION IN AI~\&~DS}}}\\
 \end{center}
   \begin{center}
    %\includegraphics[width=26mm,height=25mm]{auemblem.pdf}   \\
@@ -196,7 +197,7 @@
   \normalsize{\textbf{COLLEGE OF ENGINEERING, GUINDY}}\\
   \normalsize{\textbf{ANNA UNIVERSITY}}\\
   \normalsize{\textbf{CHENNAI  600 025}}\\
-  \vspace{0.5\baselineskip}
+  \vspace{0.2\baselineskip}
   \normalsize{\textbf{MONTH YEAR }}
  \end{center}
 \pagebreak
@@ -231,15 +232,15 @@ BONA FIDE CERTIFICATE}
 \end{flushleft}
 %\vspace{0.5 cm}
 \begin{center}
- \small{\textbf{COUNTERSIGNED}}\\ 
+ \small{\textbf{COUNTERSIGNED}}\\
   \vspace{1.5 cm}
-  \textbf{\small{DR. S SWAMYNATHAN}}\\
+  \textbf{\small{DR. S. SWAMYNATHAN}}\\
   \small{\textbf{HEAD OF THE DEPARTMENT}}\\
  \small{\textbf{DEPARTMENT OF INFORMATION SCIENCE AND TECHNOLOGY}}\\
  \small{\textbf{COLLEGE OF ENGINEERING, GUINDY}}\\
  \small{\textbf{ANNA UNIVERSITY}}   \\
  \small{\textbf{CHENNAI  600025}}
- 
+
 \end{center}
 
 
@@ -261,7 +262,7 @@ BONA FIDE CERTIFICATE}
 
 \setlength\cftparskip{0pt}
 \setlength{\cftbeforetoctitleskip}{-3em} %Decrease the top margin of toc title
-%\setlength{\cftaftertoctitleskip}{0 em} 
+%\setlength{\cftaftertoctitleskip}{0 em}
 \setlength{\cftbeforelottitleskip}{-3em} % Decrease the top margin of lot
 \setlength{\cftbeforeloftitleskip}{-3em} % Decrease the top margin of lof
 \cftsetindents{chapter}{0 mm}{10 mm}
@@ -275,7 +276,7 @@ BONA FIDE CERTIFICATE}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Changes made as on June 2016
 %%%%%%%%ADD TOC with one half spacing%%%%%%%%%%%
-\begin{onehalfspacing} 
+\begin{onehalfspacing}
 \tableofcontents
 
 \pagebreak
@@ -322,7 +323,7 @@ LIST OF FIGURES} \listoffigures
 %\include{6/Chapter6}
 \include{Conclusion/conclusion}
 \cleardoublepage
-\phantomsection 
+\phantomsection
 \include{Appendix/appendix}
 
 
