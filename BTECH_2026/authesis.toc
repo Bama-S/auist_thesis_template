@@ -43,11 +43,12 @@
 \contentsline {section}{\numberline {4.1} \uppercase {Algorithm 1}}{11}{section.4.1}%
 \contentsline {chapter}{\numberline {5}\uppercase {Results and Performance Analysis}}{12}{chapter.5}%
 \contentsline {chapter}{\numberline {6}\uppercase {Conclusion and Future Work}}{13}{chapter.6}%
-\contentsline {chapter}{APPENDIX}{14}{section*.9}%
-\contentsline {chapter}{\numberline {A}\uppercase {Topic 1}}{14}{appendix.A}%
-\contentsline {section}{\numberline {A.1} \uppercase {Section 1}}{14}{section.A.1}%
-\contentsline {section}{\numberline {A.2} \uppercase {Section 2}}{14}{section.A.2}%
-\contentsline {chapter}{\numberline {B}\uppercase {Topic 2}}{15}{appendix.B}%
-\contentsline {section}{\numberline {B.1} \uppercase {Section 1}}{15}{section.B.1}%
-\contentsline {section}{\numberline {B.2} \uppercase {Section 2}}{15}{section.B.2}%
-\contentsline {chapter}{REFERENCES}{16}{section*.10}%
+\contentsline {chapter}{\bfseries \uppercase {DECLARATION ON THE USE OF AI TOOLS}}{14}{chapter*.10}%
+\contentsline {chapter}{APPENDIX}{15}{chapter*.10}%
+\contentsline {chapter}{\numberline {A}\uppercase {Topic 1}}{15}{appendix.A}%
+\contentsline {section}{\numberline {A.1} \uppercase {Section 1}}{15}{section.A.1}%
+\contentsline {section}{\numberline {A.2} \uppercase {Section 2}}{15}{section.A.2}%
+\contentsline {chapter}{\numberline {B}\uppercase {Topic 2}}{16}{appendix.B}%
+\contentsline {section}{\numberline {B.1} \uppercase {Section 1}}{16}{section.B.1}%
+\contentsline {section}{\numberline {B.2} \uppercase {Section 2}}{16}{section.B.2}%
+\contentsline {chapter}{REFERENCES}{17}{section*.11}%
